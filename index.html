@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="Image/logo.png" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <title>SnakePRO | A Snake Game</title>
+  </head>
+  <body>
+    <div class="body">
+      <div class="scores">
+        <div id="scoreBox">Score: 0</div>
+        <div id="hiscoreBox">HiScore: 0</div>
+      </div>
+      <div id="board"></div>
+    </div>
+    <div id="control">
+      <div id="ctrlline1">
+        <div id="up">UP</div>
+      </div>
+      <div id="ctrlline2">
+        <div id="left">LEFT</div>
+        <div id="right">RIGHT</div>
+      </div>
+      <div id="ctrlline3">
+        <div id="down">DOWN</div>
+      </div>
+    </div>
+    <!-- Popups -->
+    <div class="popup" id="gameover">Game Over - Please try Again</div>
+    <div class="settings" id="settings">
+      <div id="closeSettings">x</div>
+      <h2>Settings</h2>
+      <span>
+        <label for="snakeSpeed">Snake Speed:</label>
+        <input type="number" id="snakeSpeed" placeholder="Normal: 15" />
+      </span>
+      <span>
+        <label for="snakeColor">Snake Color:</label>
+        <input type="text" id="snakeColor" placeholder="Defualt: Red" />
+      </span>
+      <span>
+        <label for="snakeFood">Snake Food:</label>
+        <input type="text" id="snakeFood" placeholder="Add an Imoji" />
+      </span>
+    </div>
+    <div id="openSettings"></div>
+  </body>
+  <script src="JS/script.js"></script>
+</html>
