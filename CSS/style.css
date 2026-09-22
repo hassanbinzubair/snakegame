@@ -94,6 +94,8 @@
   right: 7px;
   bottom: 5px;
   opacity: 40%;
+  user-select: none;
+  -webkit-user-select: none;
 }
 #ctrlline1,
 #ctrlline2,

@@ -20,12 +20,12 @@ let food = { x: 6, y: 7 };
 let snakeSpeed = document.getElementById("snakeSpeed");
 let snakeColor = document.getElementById("snakeColor");
 let snakeFood = document.getElementById("snakeFood");
-let selectedSpeed = "15";
+let selectedSpeed = "10";
 let selectedFood = "🍎";
 let selectedColor = "red";
 setInterval(() => {
   if (selectedColor == "" || selectedFood == "" || selectedSpeed == "") {
-    selectedSpeed = "15";
+    selectedSpeed = "10";
     selectedFood = "🍎";
     selectedColor = "red";
   }
